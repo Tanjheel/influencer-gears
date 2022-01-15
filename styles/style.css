@@ -35,6 +35,11 @@ header h4{
 .top-banner{
     display:flex;
 }
+
+.half-width img:hover{
+    transform: rotate(360deg);
+    transition: 2s;
+}
 .half-width{
     width: 50%;
 }
